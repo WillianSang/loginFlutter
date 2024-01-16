@@ -19,10 +19,15 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(height: 50),
 
               //hellow Again
-              const Text(
-                "HELLO AGAIN",
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+              Text(
+                "HELLO EVRYDAY",
+                style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.purple[800],
+                ),
               ),
+
               const SizedBox(height: 50),
 
               // SubtitletText
@@ -34,7 +39,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 30),
 
-              // EmailInput
+              // Input-Email
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20.0),
                 child: TextField(
@@ -47,7 +52,7 @@ class LoginScreen extends StatelessWidget {
                         borderSide: const BorderSide(color: Colors.deepPurple),
                         borderRadius: BorderRadius.circular(15),
                       ),
-                      hintText: "Email",
+                      hintText: "Your email here",
                       fillColor: Colors.grey[200],
                       filled: true),
                 ),
@@ -67,7 +72,7 @@ class LoginScreen extends StatelessWidget {
                           borderSide:
                               const BorderSide(color: Colors.deepPurple),
                           borderRadius: BorderRadius.circular(15)),
-                      hintText: "Password",
+                      hintText: "Your password here",
                       fillColor: Colors.grey[200],
                       filled: true),
                 ),
